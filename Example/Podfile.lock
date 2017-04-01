@@ -1,0 +1,16 @@
+PODS:
+  - imgurupload-client (0.1.0)
+
+DEPENDENCIES:
+  - imgurupload-client (from `../`)
+
+EXTERNAL SOURCES:
+  imgurupload-client:
+    :path: ../
+
+SPEC CHECKSUMS:
+  imgurupload-client: 5fcfaee8a9f1b08d2db41e1f2a09b80e77e510ea
+
+PODFILE CHECKSUM: e7b6dce4a749cfcfded7e5385a51f734190c424e
+
+COCOAPODS: 1.2.0

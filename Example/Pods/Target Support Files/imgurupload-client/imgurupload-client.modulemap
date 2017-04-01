@@ -1,0 +1,6 @@
+framework module imgurupload_client {
+  umbrella header "imgurupload-client-umbrella.h"
+
+  export *
+  module * { export * }
+}
