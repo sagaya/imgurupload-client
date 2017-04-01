@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'imgurupload-client_Example' do
+  pod 'imgurupload-client', :path => '../'
+
+  target 'imgurupload-client_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
