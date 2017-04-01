@@ -84,7 +84,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate, UINaviga
     }
     func uploadImage(){
         let imageData = UIImagePNGRepresentation(selectedImage.image!)
-        ImgurUpload.upload(imageData: imageData!, apiKey: "aab3505f42b5d63", completionHandler: { (response) in
+        ImgurUpload.upload(imageData: imageData!, apiKey: "<IMGUR_API_KEY>", completionHandler: { (response) in
             //USE THE RESPONSE OBJECT
             print(response)
         })
