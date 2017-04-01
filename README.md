@@ -34,7 +34,7 @@ pod "imgurupload-client"
 
 ## Author
 
-cosmo1234, harpheezsagaya@gmail.com
+cosmo1234
 
 ## License
 
