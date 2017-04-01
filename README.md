@@ -11,6 +11,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+## Basic Usage
+
+```ruby
+import imgurupload_client
+ImgurUpload.upload(imageData: imageData!, apiKey: "<IMGUR_API_KEY>", completionHandler: { (response) in
+    print(response)
+})
+```
+
+
 ## Installation
 
 imgurupload-client is available through [CocoaPods](http://cocoapods.org). To install
