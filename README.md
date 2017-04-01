@@ -15,6 +15,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ```ruby
 import imgurupload_client
+
+
 ImgurUpload.upload(imageData: imageData!, apiKey: "<IMGUR_API_KEY>", completionHandler: { (response) in
     print(response)
 })
