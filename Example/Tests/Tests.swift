@@ -1,6 +1,5 @@
 import UIKit
 import XCTest
-import imgurupload-client
 
 class Tests: XCTestCase {
     
