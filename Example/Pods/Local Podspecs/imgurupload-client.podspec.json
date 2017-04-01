@@ -1,7 +1,7 @@
 {
   "name": "imgurupload-client",
   "version": "0.1.0",
-  "summary": "A short description of imgurupload-client.",
+  "summary": "Easily upload images using the imgur API",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/cosmo1234/imgurupload-client",
   "license": {
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "imgurupload-client/Classes/**/*"
+  "source_files": "imgurupload-client/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.4"
+    ]
+  }
 }

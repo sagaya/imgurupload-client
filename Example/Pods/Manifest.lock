@@ -1,5 +1,7 @@
 PODS:
-  - imgurupload-client (0.1.0)
+  - Alamofire (4.4.0)
+  - imgurupload-client (0.1.0):
+    - Alamofire (~> 4.4)
 
 DEPENDENCIES:
   - imgurupload-client (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  imgurupload-client: 5fcfaee8a9f1b08d2db41e1f2a09b80e77e510ea
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  imgurupload-client: 26ca1a5a0365b8914cea0a69974ada643bbbc354
 
 PODFILE CHECKSUM: e7b6dce4a749cfcfded7e5385a51f734190c424e
 
